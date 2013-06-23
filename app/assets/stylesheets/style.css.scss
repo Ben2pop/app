@@ -1,0 +1,49 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+#home{
+ background: url("go2.jpg") no-repeat center center fixed;
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-ms-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+min-height: 100%;
+color :white;
+}
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-color: transparent;
+	height: 100%;
+    margin-top: 40px;
+}
+
+html{
+	height:94.3%;
+}
+
+#logo{
+	
+	text-align: center;
+	margin-top:100px;
+}
+
+#secondline{
+	margin-top: 90px;
+	text-align: center;
+}
+
+#login{
+	
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(23, 17, 36, 0.5);
+   
+}
+
+#signup{
+	margin-top: 30px;
+	text-align:center;
+}
