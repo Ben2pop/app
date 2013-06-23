@@ -7,7 +7,7 @@ gem 'simple_form'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails'
+
 end
 
 group :production do
