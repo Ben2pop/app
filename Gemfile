@@ -5,8 +5,14 @@ gem 'simple_form'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :development, :test do
+  gem 'sqlite3'
+  gem 'rspec-rails'
+end
 
-gem 'sqlite3'
+group :production do
+	  gem 'pg'
+end
 
 gem 'bootstrap-sass', '~> 2.3.1.3'
 # Gems used only for assets and not required
